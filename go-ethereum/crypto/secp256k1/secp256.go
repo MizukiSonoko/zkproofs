@@ -147,7 +147,7 @@ func RunRangeproof() {
 	C.test_rangeproof()
 }
 
-func SetupRangeproof(nbits _Ctype_ulong) (*C.zkrp_t) {
+func SetupRangeproof(nbits C.ulong) *C.zkrp_t {
 	var dt *C.zkrp_t
 	dt = new(C.zkrp_t)
 	dt.nbits = nbits
@@ -167,6 +167,6 @@ func ProveRangeproof(dt *C.zkrp_t) {
 	C.prove_rangeproof(dt)
 }
 
-func VerifyRangeproof(dt *C.zkrp_t) (bool) {
+func VerifyRangeproof(dt *C.zkrp_t) bool {
 	return (C.verify_rangeproof(dt) == 1)
 }
