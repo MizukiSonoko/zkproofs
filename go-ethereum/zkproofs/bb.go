@@ -26,7 +26,7 @@ Eurocrypt 2004
 import (
 	"crypto/rand"
 	"errors"
-	"github.com/ing-bank/zkproofs/go-ethereum/crypto/bn256"
+	"github.com/MizukiSonoko/zkproofs/go-ethereum/crypto/bn256"
 	"math/big"
 )
 
