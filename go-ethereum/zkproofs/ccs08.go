@@ -27,10 +27,11 @@ import (
 	"bytes"
 	"crypto/rand"
 	"errors"
-	"github.com/ing-bank/zkproofs/go-ethereum/crypto/bn256"
 	"math"
 	"math/big"
 	"strconv"
+
+	"github.com/MizukiSonoko/zkproofs/go-ethereum/crypto/bn256"
 )
 
 /*
