@@ -6,8 +6,8 @@ package zkproofs
 
 import (
 	"math/big"
-	"github.com/ing-bank/zkproofs/go-ethereum/crypto/secp256k1"
-	"github.com/ing-bank/zkproofs/go-ethereum/byteconversion"
+	"github.com/MizukiSonoko/zkproofs/go-ethereum/crypto/secp256k1"
+	"github.com/MizukiSonoko/zkproofs/go-ethereum/byteconversion"
 	"errors"
 	"bytes"
 	"strconv"
